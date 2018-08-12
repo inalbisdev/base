@@ -1,0 +1,48 @@
+@import "../../../vars/glob";
+@import "../../../mixins/glob";
+
+
+
+
+
+/*Modifiers based on cientific names*/
+
+.a-typo{
+  &-tesla{
+    @include generateTypo(35px,39px);
+  }
+  &-hawking{
+    @include generateTypo(20px,27px,600);
+  }
+  &-newton{
+    @include generateTypo(20px,27px);
+  }
+  &-edison{
+    @include generateTypo(21px,24px);
+  }
+  &-einstein{
+    @include generateTypo(44px,50px);
+    letter-spacing: -1px;
+  }
+  &-curie{
+    @include generateTypo(28px,40px);
+    letter-spacing: -0.5px;
+  }
+  &-kepler{
+    @include generateTypo(16px,24px);
+  }
+  &-mendel{
+    @include generateTypo(14px,17px);
+  }
+  &-pascal{
+    @include generateTypo(24px,28px);
+  }
+  &-has-left-line{
+    padding-left: 16px;
+    border-left: 8px solid #333;
+  }
+  &-has-right-line{
+    padding-right: 16px;
+    border-right: 8px solid #333;
+  }
+}

@@ -1,0 +1,1234 @@
+{
+  "exploreBigCard" : [
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside",
+          "title": [
+            {
+              "class": "a-typo-curie u-color-white",
+              "tag": "h3",
+              "text":  "Fun & Snow & Andorra & Dabbing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-kepler u-color-white",
+              "tag": "h6",
+              "text":  "Lorem ispum dolor sit amet."
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--oslo a-button--narrow",
+              "text": "desde 354,00€",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            },
+            {
+              "class": "a-button--berlin a-button--narrow u-uppercase",
+              "text": "Más reservado",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            },
+            {
+              "class": "a-button--paris a-button--narrow u-uppercase",
+              "text": "Solo estudiantes",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/500x750/filters:quality(55):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-full-explore-1.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/750x1000/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-full-explore-1.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside",
+          "title": [
+            {
+              "class": "a-typo-curie u-color-white",
+              "tag": "h3",
+              "text":  "Fun & Snow & Andorra & Dabbing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-kepler u-color-white",
+              "tag": "h6",
+              "text":  "Lorem ispum dolor sit amet."
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--oslo a-button--narrow",
+              "text": "desde 354,00€",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            },
+            {
+              "class": "a-button--berlin a-button--narrow u-uppercase",
+              "text": "Más reservado",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            },
+            {
+              "class": "a-button--paris a-button--narrow u-uppercase",
+              "text": "Solo estudiantes",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/500x750/filters:quality(55):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-full-explore-2.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/500x750/filters:quality(55):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-full-explore-2.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exploreLittleCardLeft": [
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "id": "ab2k",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-green",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel",
+              "tag": "h6",
+              "text":  "Ibiza y Formentera"
+            }
+          ],
+          "text" : [
+            {
+              "text" : "Mucho 'sol' y mucha 'beach', si no te gusta haber elegido Albacete"
+            }
+          ],
+          "actions": [
+            {
+              "tag": {
+                "text": "Caribe",
+                "class": "u-color-green"
+              }
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--oslo a-button--narrow",
+              "text": "desde 354,00 €",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-1.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-1.png",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "id": "a2ak",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-mustard",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel",
+              "tag": "h6",
+              "text":  "Ibiza y Formentera"
+            }
+          ],
+          "text" : [
+            {
+              "text" : "Mucho 'sol' y mucha 'beach', si no te gusta haber elegido Albacete"
+            }
+          ],
+          "actions": [
+            {
+              "tag": {
+                "text": "Fun",
+                "class": "u-color-pink"
+              }
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-2.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-2.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "title": [
+            {
+              "class": "a-typo-edison u-color-mustard",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel",
+              "tag": "h6",
+              "text":  "Ibiza y Formentera"
+            }
+          ],
+          "text" : [
+            {
+              "text" : "Mucho 'sol' y mucha 'beach', si no te gusta haber elegido Albacete"
+            }
+          ],
+          "actions": [
+            {
+              "tag": {
+                "text": "Petardeo",
+                "class": "u-color-helio-trope"
+              }
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-3.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-3.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exploreLittleCardRight": [
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "title": [
+            {
+              "class": "a-typo-edison u-color-mustard",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel",
+              "tag": "h6",
+              "text":  "Ibiza y Formentera"
+            }
+          ],
+          "text" : [
+            {
+              "text" : "Mucho 'sol' y mucha 'beach', si no te gusta haber elegido Albacete"
+            }
+          ],
+          "actions": [
+            {
+              "tag": {
+                "text": "Caribe",
+                "class": "u-color-black"
+              }
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-4.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-4.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "title": [
+            {
+              "class": "a-typo-edison u-color-blue-electric",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel",
+              "tag": "h6",
+              "text":  "Ibiza y Formentera"
+            }
+          ],
+          "text" : [
+            {
+              "text" : "Mucho 'sol' y mucha 'beach', si no te gusta haber elegido Albacete"
+            }
+          ],
+          "actions": [
+            {
+              "tag": {
+                "text": "Playa",
+                "class": "u-color-orange"
+              }
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-5.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-5.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "title": [
+            {
+              "class": "a-typo-edison u-color-teal-light",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel",
+              "tag": "h6",
+              "text":  "Ibiza y Formentera"
+            }
+          ],
+          "text" : [
+            {
+              "text" : "Mucho 'sol' y mucha 'beach', si no te gusta haber elegido Albacete"
+            }
+          ],
+          "actions": [
+            {
+              "tag": {
+                "text": "Fun",
+                "class": "u-color-teal"
+              }
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-6.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/m-card-simple-explore-6.png",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "foreverHeading" : [
+    {
+      "elem": "m-heading",
+      "elemclass" : "",
+      "attr" : [
+        {
+          "title" : [
+            {
+              "text" : "#BFForever",
+              "class" : "u-color-orange",
+              "emoji" : [
+                 "&#x1F346",
+                 "&#x1F344"
+              ]
+            }
+          ],
+          "subtitle" : [
+            {
+              "text" : "Todos son Wäy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "foreverCards": [
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--lolipop",
+          "text" : [
+            {
+              "text" : "@johndoe",
+              "class": "u-color-white"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-1.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-1.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside  m-card--lolipop",
+          "text" : [
+            {
+              "text" : "@johndoe",
+              "class": "u-color-white"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-2.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-2.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside  m-card--lolipop",
+          "text" : [
+            {
+              "text" : "@johndoe",
+              "class": "u-color-white"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-3.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-3.png",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside  m-card--lolipop",
+          "text" : [
+            {
+              "text" : "@johndoe",
+              "class": "u-color-white"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-4.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-4.png",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside  m-card--lolipop",
+          "text" : [
+            {
+              "text" : "@johndoe",
+              "class": "u-color-white"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-5.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-5.png",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside  m-card--lolipop",
+          "text" : [
+            {
+              "text" : "@johndoe",
+              "class": "u-color-white"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-1.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/280x380/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-1.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experiencesHeading" : [
+    {
+      "elem": "m-heading",
+      "elemclass" : "",
+      "attr": [
+        {
+          "title": [
+            {
+              "text" : "Experiencias",
+              "class" : "u-color-red"
+            }
+          ],
+          "subtitle": [
+            {
+              "text": "Déjate liar y líarla parda"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "experiencesCards": [
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-white",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "h6",
+              "text":  "Mucho 'sun' y mucha 'beach'"
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--paris a-button--narrow",
+              "text": "desde 354,00 €",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/experiences-slider-1.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-1.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-white",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "h6",
+              "text":  "Mucho 'sun' y mucha 'beach'"
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--paris a-button--narrow",
+              "text": "desde 354,00 €",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/experiences-slider-2.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-2.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-white",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "h6",
+              "text":  "Mucho 'sun' y mucha 'beach'"
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--paris a-button--narrow",
+              "text": "desde 354,00 €",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/experiences-slider-3.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-3.png",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-white",
+              "tag": "h3",
+              "text":  "Fun & Travel & Sailing"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "h6",
+              "text":  "Mucho 'sun' y mucha 'beach'"
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--paris a-button--narrow",
+              "text": "desde 354,00 €",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/experiences-slider-1.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-4.png",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "whatIsWayHeading": [
+    {
+      "elem": "m-heading",
+      "elemclass" : "",
+      "attr": [
+        {
+          "title": [
+            {
+              "text" : "Qué es Wäy?",
+              "class" : "u-color-blue-light"
+            }
+          ],
+          "subtitle": [
+            {
+              "text": "En tres pasos y cuantas etiquetas"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "yourTravelCardLeft": [
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-einstein u-color-white",
+              "tag": "h3",
+              "text":  "Móntate tu viaje"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "h6",
+              "text":  "Mata de envidia a instagram"
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--dublin u-uppercase",
+              "text": "Empieza ahora",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--3/4",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/480x640/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/yourtravel-1.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/480x640/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/yourtravel-1.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "yourTravelCardRight": [
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-einstein u-color-white",
+              "tag": "h3",
+              "text":  "Móntate tu viaje"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "h6",
+              "text":  "Mata de envidia a instagram"
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--paris",
+              "text": "Empieza ahora",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/1000x560/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/yourtravel-2.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/1000x560/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/yourtravel-2.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "eventsHeading": [
+    {
+      "elem": "m-heading",
+      "elemclass" : "",
+      "attr": [
+        {
+          "title": [
+            {
+              "text" : "Eventos",
+              "class" : "u-color-red"
+            }
+          ],
+          "subtitle": [
+            {
+              "text": "Los Castizos, Steve Aoki, YALL"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "eventsCards": [
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-white",
+              "tag": "h3",
+              "text":  "June"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "a",
+              "text":  "Ver todos los eventos de junio"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/experiences-slider-1.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-1.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-white",
+              "tag": "h3",
+              "text":  "Los Castizos"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "a",
+              "text":  "Ver todos los eventos de 2018"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/experiences-slider-2.jpg",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-2.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-white",
+              "tag": "h3",
+              "text":  "Steve Aoki at Stage"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "a",
+              "text":  "Mucho 'sun' y mucha 'beach'"
+            }
+          ],
+          "button" : [
+            {
+              "class": "a-button--paris a-button--narrow",
+              "text": "desde 354,00 €",
+              "url": "https://www.google.es",
+              "target": "_blank",
+              "external": true
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/experiences-slider-3.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-3.png",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "elem": "m-card",
+      "attr": [
+        {
+          "elemclass": "m-card--inside m-card--kojac",
+          "title": [
+            {
+              "class": "a-typo-edison u-color-white",
+              "tag": "h3",
+              "text":  "June"
+            }
+          ],
+          "subtitle": [
+            {
+              "class": "a-typo-mendel u-color-white",
+              "tag": "a",
+              "text":  "Ver todos los eventos de junio"
+            }
+          ],
+          "media": [
+            {
+              "class" : "u-aspect u-aspect--16/9",
+              "alt": "Alt",
+              "title": "Title",
+              "source": [
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/experiences-slider-1.png",
+                  "media" : "max-width: 768px"
+                },
+                {
+                  "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                  "url" : "assets/media/images/explore/forever-slider-1.jpg",
+                  "media" : "min-width: 769px"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

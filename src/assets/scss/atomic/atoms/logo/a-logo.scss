@@ -1,0 +1,10 @@
+.a-logo{
+  &__path{
+    &-1{
+      animation: animateLogoPoint1 1s linear infinite forwards;
+    }
+    &-2{
+      animation: animateLogoPoint2 1s linear infinite forwards;
+    }
+  }
+}

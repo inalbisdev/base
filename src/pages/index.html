@@ -1,0 +1,109 @@
+---
+layout: default
+title: Home
+page: Home
+---
+
+
+{{> o-itinerary}}
+
+<section class="l l-explore l--fit u-mv-64">
+    {{#> gel-1-2}}
+        {{#*inline "content1"}}
+            {{#> slider-sirius}}
+                {{#*inline "content"}}
+                    {{#each explore.exploreBigCard}}
+                        {{> (getPartial elem)}}
+                    {{/each}}
+                {{/inline}}
+            {{/slider-sirius}}
+        {{/inline}}
+        {{#*inline "content2"}}
+            {{#> gel-1-2 class="l-explore--small" }}
+                {{#*inline "content1"}}
+                    {{#each explore.exploreLittleCardLeft}}
+                        {{> (getPartial elem)}}
+                    {{/each}}
+                {{/inline}}
+                {{#*inline "content2"}}
+                    {{#each explore.exploreLittleCardRight}}
+                        {{> (getPartial elem)}}
+                    {{/each}}
+                {{/inline}}
+            {{/gel-1-2}}
+        {{/inline}}
+    {{/gel-1-2}}
+</section>
+
+
+<section class="l l-forever l--fit u-mv-64">
+    {{#with explore.foreverHeading.[0]}}
+        {{> (getPartial elem this)}}
+    {{/with}}
+    {{#> slider-orion}}
+        {{#*inline "content"}}
+            {{#each explore.foreverCards}}
+                {{> (getPartial elem)}}
+            {{/each}}
+        {{/inline}}
+    {{/slider-orion}}
+</section>
+
+
+<section class="l l-experience l--fit u-mv-96">
+    {{#with explore.experiencesHeading.[0]}}
+        {{> (getPartial elem this)}}
+    {{/with}}
+
+    {{#> slider-leo}}
+        {{#*inline "content"}}
+            {{#each explore.experiencesCards}}
+                {{> (getPartial elem)}}
+            {{/each}}
+        {{/inline}}
+    {{/slider-leo}}
+</section>
+
+
+
+<section class="l l-what-is l--fit u-mv-96">
+    {{#with explore.whatIsWayHeading.[0]}}
+        {{> (getPartial elem this)}}
+    {{/with}}
+
+    <div class="gel-layout">
+        <div class="gel-layout__item gel-1/3">
+            {{#each explore.yourTravelCardLeft}}
+                {{> (getPartial elem)}}
+            {{/each}}
+        </div>
+        <div class="gel-layout__item gel-2/3">
+            {{#each explore.yourTravelCardRight}}
+                {{> (getPartial elem)}}
+            {{/each}}
+        </div>
+    </div>
+
+</section>
+
+
+<section class="l l-event l--fit u-mv-96">
+    {{#with explore.eventsHeading.[0]}}
+        {{> (getPartial elem this)}}
+    {{/with}}
+
+    {{#> slider-leo}}
+        {{#*inline "content"}}
+            {{#each explore.eventsCards}}
+                {{> (getPartial elem)}}
+            {{/each}}
+        {{/inline}}
+    {{/slider-leo}}
+
+</section>
+
+{{#> o-modal id="modal"}}
+    {{#*inline "content"}}
+        Esto es un modal !!!
+    {{/inline}}
+{{/o-modal}}

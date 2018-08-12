@@ -1,0 +1,12 @@
+@import "../../../vars/glob";
+
+.o-footer{
+  border-top: 1px solid #666;
+  &__logo{
+    svg{
+      path{
+        fill: #333;
+      }
+    }
+  }
+}

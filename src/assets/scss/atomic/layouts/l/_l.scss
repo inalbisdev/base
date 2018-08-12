@@ -1,0 +1,37 @@
+@import "../../../vars/glob";
+
+.l{
+  max-width: 100%;
+  &--fit{
+    max-width: $l__container-max-width;
+    padding-left: $l__container-left-padding;
+    padding-right: $l__container-right-padding;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &__item{
+    width: 100%;
+  }
+  &--two{
+    display: flex;
+    /*
+    margin-left: -16px;
+    margin-right: -16px;
+    */
+    flex-wrap: wrap;
+    .l__item{
+      padding-left: 16px;
+      padding-right: 16px;
+      @media (max-width: $screen-s-max){
+        padding-bottom: 16px;
+        &:last-child{
+          padding-bottom: 0;
+        }
+      }
+      @media (min-width: $screen-m-min){
+        width: 50%;
+      }
+    }
+  }
+}
+
