@@ -13,11 +13,16 @@ import sass          from 'gulp-sass';
 import webpack       from 'webpack-stream';
 import pixrem       from 'gulp-pixrem';
 
+
+import webp from "gulp-webp";
+
+
+
 import UglifyJsPlugin from 'uglifyjs-webpack-plugin';
 
-const critical = require('critical').stream; // Separa el CSS critico de la web y lo incrusta inline;
-const htmlmin = require('gulp-htmlmin');
-//import bulkSass from "gulp-sass-bulk-import"
+const critical = require('critical').stream;
+
+
 import _ from "lodash";
 
 
@@ -97,6 +102,11 @@ gulp.task('critical', function () {
         .pipe(gulp.dest('critical'));
 });
 
+gulp.task('imgOpt', () =>
+    gulp.src('src/assets/media/images/**/*.{jpg,png}')
+        .pipe(webp())
+        .pipe(gulp.dest(PATHS.dist + '/assets/media'))
+);
 
 
 

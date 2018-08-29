@@ -1,4 +1,4 @@
-<div class="m-loading">
+<div class="m-loading" id="m-loading">
     <div class="m-loading__logo">
         {{> a-logo}}
         <div class="u-effect-ripple">
@@ -8,3 +8,13 @@
     </div>
 </div>
 
+<script>
+    (function () {
+        if(sessionStorage.loading){
+            var element = document.getElementById('m-loading');
+            if (element) {
+                element.style.display = "none";
+            }
+        }
+    })();
+</script>

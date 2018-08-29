@@ -12,8 +12,10 @@ module.exports = (function () {
         favorites: require('./ui/favorites'),
         tippy: require('./ui/tippy'),
         toggle: require('./ui/toggle'),
-        shadow: require('./ui/shadow')
-
+        shadow: require('./ui/shadow'),
+        scrollTop: require('./ui/scrollTop'),
+        scrollReveal: require('./ui/scrollReveal'),
+        scrollOpacity: require('./ui/scrollOpacity')
     };
 })();
 

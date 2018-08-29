@@ -83,7 +83,7 @@ module.exports = {
 
         let that = this;
 
-        document.addEventListener('scroll',function () {
+        window.addEventListener('scroll',function () {
             that.initSliderIfOnViewPort(that);
         },utils.supportPassiveEvents() ? {passive: true} : false);
 

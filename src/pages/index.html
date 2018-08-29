@@ -5,7 +5,7 @@ page: Home
 ---
 
 
-{{> o-itinerary}}
+
 
 <section class="l l-explore l--fit u-mv-64">
     {{#> gel-1-2}}
@@ -36,7 +36,7 @@ page: Home
 </section>
 
 
-<section class="l l-forever l--fit u-mv-64">
+<section class="l l-forever l--fit u-mv-64" data-progress="Forever Section">
     {{#with explore.foreverHeading.[0]}}
         {{> (getPartial elem this)}}
     {{/with}}
@@ -50,7 +50,7 @@ page: Home
 </section>
 
 
-<section class="l l-experience l--fit u-mv-96">
+<section  class="l l-experience l--fit u-mv-96"  data-progress="Experience Section">
     {{#with explore.experiencesHeading.[0]}}
         {{> (getPartial elem this)}}
     {{/with}}
@@ -67,7 +67,7 @@ page: Home
 
 
 <section class="l l-what-is l--fit u-mv-96">
-    {{#with explore.whatIsWayHeading.[0]}}
+    {{#with exploresud.whatIsWayHeading.[0]}}
         {{> (getPartial elem this)}}
     {{/with}}
 
@@ -87,7 +87,7 @@ page: Home
 </section>
 
 
-<section class="l l-event l--fit u-mv-96">
+<section class="l l-event l--fit u-mv-96" data-progress="Efsdpjfdsjfsdjlfjs">
     {{#with explore.eventsHeading.[0]}}
         {{> (getPartial elem this)}}
     {{/with}}

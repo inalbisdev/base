@@ -5,6 +5,7 @@ let tippy = require('tippy.js');
 
 
 
+
 const App = {
     utils: require('./app.utils'),
     ui: require('./app.ui')
@@ -15,11 +16,8 @@ const App = {
     window.$ = $;
     const initAll= function () {
         App.utils.init();
-        App.ui.videoPlayer.init();
         App.ui.loading.init();
         App.ui.progressBar.init();
-        App.ui.fixedNavigation.init();
-        App.ui.limitVisibility.init();
         App.ui.modal.init();
         App.ui.effectRipple.init();
         App.ui.slider.init();
@@ -27,6 +25,8 @@ const App = {
         App.ui.tippy.init();
         App.ui.toggle.init();
         App.ui.shadow.init();
+        App.ui.scrollTop.init();
+        App.ui.scrollOpacity.init();
     };
     initAll();
 })();

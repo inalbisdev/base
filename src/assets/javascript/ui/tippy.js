@@ -35,11 +35,7 @@ module.exports = {
     init: function () {
         let that =  this;
         document.addEventListener("DOMContentLoaded", function() {
-
-            if(document.getElementsByClassName(that.locators.$trigger)) {
                 that.bindEvents();
-            }
-
 
         });
     }

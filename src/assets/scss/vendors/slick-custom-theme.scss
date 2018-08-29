@@ -6,10 +6,10 @@
 .slick{
   /*Graceful load for slider*/
   &-slider{
-    opacity: 0;
+    opacity: 1;
     transition: .6s opacity;
     &:not(.slick-initialized){
-      display: flex;
+      /*display: flex;*/
     }
     &.slick-initialized{
       opacity: 1;

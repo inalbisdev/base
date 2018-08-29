@@ -16,6 +16,7 @@
     z-index: 1;
     background-color: #f6f6f6;
     height: 100%;
+    position: relative;
   }
   &__current{
     background-image: $gradient-illusion;
@@ -30,6 +31,18 @@
       height: 0;
     }
   }
+
+  &__point{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 0;
+    z-index: 1;
+    background: $color-black;
+    cursor: pointer;
+  }
+
   &.is-active{
     opacity: 1;
     pointer-events: all;

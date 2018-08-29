@@ -2,47 +2,64 @@ let $ = require('jquery');
 
 module.exports = {
 
-    isElementOnViewPort: function(el){
+    isElementOnViewPort: function (el) {
         return this.getOffsetBottom(el) > this.viewPortTop() && this.getOffsetTop(el) < this.viewPortBottom();
     },
-    viewPortTop : function () {
+    viewPortTop: function () {
         return $(window).scrollTop();
     },
-    viewPortBottom : function () {
+    viewPortBottom: function () {
         return this.viewPortTop() + $(window).height();
     },
-    checkDataFromObject : function(el, data){
-        return !!$(el).data(data) ;
+    smoothScroll: function (scrollTop, timing, target) {
+
+        timing = typeof timing !== 'undefined' ? timing : 500;
+        scrollTop = scrollTop || 0;
+        target = target || $('html,body');
+
+        target.animate(
+            {
+                scrollTop: scrollTop
+            }, timing
+        );
+        return false;
+
     },
-    getOffsetTop : function (el) {
+    checkDataFromObject: function (el, data) {
+        return !!$(el).data(data);
+    },
+    getOffsetTop: function (el) {
         return el.offset().top;
     },
-    getOffsetBottom : function (el) {
-        return  this.getOffsetTop(el) + this.getOuterHeight(el);
+    isScrollBiggerThanViewPort: function () {
+        return $(window).scrollTop() > $(window).height();
     },
-    getOffsetLeft : function (el) {
+    getOffsetBottom: function (el) {
+        return this.getOffsetTop(el) + this.getOuterHeight(el);
+    },
+    getOffsetLeft: function (el) {
         return el.offset().left;
     },
-    getOuterWidth : function (el) {
+    getOuterWidth: function (el) {
         return el.outerWidth();
     },
     getOuterHeight: function (el) {
         return el.outerHeight();
     },
-    getCenterPosition : function (el) {
+    getCenterPosition: function (el) {
         return this.getOffsetLeft(el) + this.getOuterWidth(el) / 2;
     },
-    getAxisY: function (el,tolerance) {
+    getAxisY: function (el, tolerance) {
         tolerance = tolerance || 0;
         return this.getOffsetTop(el) + this.getOuterHeight(el) + tolerance;
     },
-    getAxisX : function (el,obj) {
+    getAxisX: function (el, obj) {
         return this.getOffsetLeft(el);
     },
-    centerElementToAnother : function (el,obj) {
+    centerElementToAnother: function (el, obj) {
         return this.getAxisX(el) - (this.getOuterWidth(obj) / 2) + (this.getOuterWidth(el) / 2);
     },
-    getUserAgent : function() {
+    getUserAgent: function () {
         let ua = navigator.userAgent;
         return {
             ua: ua,
@@ -50,7 +67,7 @@ module.exports = {
             os: /Windows NT 10/.test(ua) ? "win10" : /Windows NT 6\.0/.test(ua) ? "winvista" : /Windows NT 6\.1/.test(ua) ? "win7" : /Windows NT 6\.\d/.test(ua) ? "win8" : /Windows NT 5\.1/.test(ua) ? "winxp" : /Windows NT [1-5]\./.test(ua) ? "winnt" : /Mac/.test(ua) ? "mac" : /Linux/.test(ua) ? "linux" : /X11/.test(ua) ? "nix" : "",
             mobile: /IEMobile|Windows Phone|Lumia/i.test(ua) ? "w" : /iPhone|iP[oa]d/.test(ua) ? "i" : /Android/.test(ua) ? "a" : /BlackBerry|PlayBook|BB10/.test(ua) ? "b" : /Mobile Safari/.test(ua) ? "s" : /webOS|Mobile|Tablet|Opera Mini|\bCrMo\/|Opera Mobi/i.test(ua) ? 1 : 0,
             tablet: /Tablet|iPad/i.test(ua),
-            touch: "ontouchstart"in document.documentElement
+            touch: "ontouchstart" in document.documentElement
         }
     },
     checkIfIsDevice: function () {
@@ -64,7 +81,7 @@ module.exports = {
     },
 
 
-    supportPassiveEvents : function(){
+    supportPassiveEvents: function () {
         let supportsPassive = false;
         try {
             let opts = Object.defineProperty({}, 'passive', {
@@ -72,7 +89,8 @@ module.exports = {
                     supportsPassive = true;
                 }
             });
-        } catch (e) {}
+        } catch (e) {
+        }
     },
 
 
