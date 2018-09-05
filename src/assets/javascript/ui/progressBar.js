@@ -102,7 +102,7 @@ module.exports = {
 
 
         $(document).on('click', '.o-progress-bar__point', function () {
-            let scrollPosition = $(this).data('scroll-to') - ($(that.locators.$trigger).innerHeight() * 2);
+            let scrollPosition = $(this).data('scroll-to') - ($(that.locators.$component).innerHeight() * 2);
             utils.smoothScroll(scrollPosition, 500);
         });
 
