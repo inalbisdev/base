@@ -1,0 +1,106 @@
+---
+layout: docs
+---
+<script>
+    function filterComponents() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("filter");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("content");
+        li = ul.getElementsByClassName("dc-o-component");
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("div")[0];
+            if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
+
+<div class="dc-m-message">
+    <div class="dc-m-message__close">CLOSE</div>
+    <code></code>
+</div>
+
+<div class="dc-l-docs">
+    <div class="dc-l-docs__aside">
+
+        <input id="filter" name="filter" onkeyup="filterComponents()" placeholder="Busca un componente"/>
+
+        <div class="dc-l-docs__nav">
+            {{#each docs.appComponents}}
+                {{#each atoms}}
+                    {{#each this}}
+                        <a class="dc-l-docs__nav-link js-anchor" data-anchor="#{{this.name}}">{{this.name}}</a>
+                    {{/each}}
+                {{/each}}
+                {{#each molecules}}
+                    {{#each this}}
+                        <a class="dc-l-docs__nav-link js-anchor" data-anchor="#{{this.name}}">{{this.name}}</a>
+                    {{/each}}
+                {{/each}}
+            {{/each}}
+        </div>
+    </div>
+    <div class="dc-l-docs__body" id="content">
+        {{#each docs.appComponents}}
+            <!-- Atoms -->
+            {{#each atoms}}
+                {{#each this}}
+
+                    <div class="dc-o-component" id="{{this.name}}">
+                        <div class="dc-o-component__header">
+                            <a class="dc-o-component__see-code js-html">Ver html</a>
+                            <!--Nombre del componente-->
+                            <div class="dc-o-component__info">
+
+                                <strong>{{this.name}}</strong>
+                                <h3>{{this.description}}</h3>
+                            </div>
+                        </div>
+                        <div class="dc-o-component__body">
+                            {{#if conf}}
+                                {{#each conf}}
+                                    {{> (getPartial ../elem this)}}
+                                {{/each}}
+                            {{/if}}
+                            {{#unless conf}}
+                                {{#if elem}}
+                                {{> (getPartial elem)}}
+                                {{/if}}
+                            {{/unless}}
+                        </div>
+                    </div>
+                {{/each}}
+            {{/each}}
+            <!--// Atoms -->
+            <!-- Molecules -->
+            {{#each molecules}}
+                {{#each this}}
+                    <div class="dc-o-component" id="{{this.name}}">
+                        <div class="dc-o-component__header">
+                            <a class="dc-o-component__see-code js-html">Ver html</a>
+                            <!--Nombre del componente-->
+                            <div class="dc-o-component__info">
+                                <strong>{{this.name}}</strong>
+                                <h3>{{this.description}}</h3>
+                            </div>
+                        </div>
+                        <div class="dc-o-component__body">
+                            {{#if originalText}}
+                                <div class="dc-o-component__default">
+                                    <div class="dc-o-component__default-title">Componente por defecto</div>
+                                    {{> (getPartial name) text=originalText}}
+                                </div>
+                            {{/if}}
+                            {{> (getPartial elem this)}}
+                        </div>
+                    </div>
+                {{/each}}
+            {{/each}}
+            <!-- //Molecules -->
+        {{/each}}
+    </div>
+</div>

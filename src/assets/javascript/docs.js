@@ -9,7 +9,7 @@ let tippy = require('tippy.js');
 
 const App = {
     utils: require('./app.utils'),
-    ui: require('./app.ui')
+    ui: require('./docs.ui')
 };
 
 (function init () {
@@ -28,7 +28,8 @@ const App = {
         App.ui.shadow.init();
         App.ui.scrollTop.init();
         App.ui.scrollOpacity.init();
-        App.ui.scrollChangeBodyColor.init();
+        App.ui.showCode.init();
+        App.ui.navigation.init();
 
     };
     initAll();

@@ -16,7 +16,8 @@ module.exports = (function () {
         scrollTop: require('./ui/scrollTop'),
         scrollReveal: require('./ui/scrollReveal'),
         scrollOpacity: require('./ui/scrollOpacity'),
-        scrollChangeBodyColor: require('./ui/scrollChangeBodyColor')
+        showCode: require('./docs/showCode'),
+        navigation: require('./docs/navigation')
     };
 })();
 

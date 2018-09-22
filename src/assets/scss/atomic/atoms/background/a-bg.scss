@@ -1,0 +1,7 @@
+.a-bg{
+  @each $name, $value in $brand-colors{
+    &-#{$name}{
+      background: $value;
+    }
+  }
+}

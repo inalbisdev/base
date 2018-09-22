@@ -41,27 +41,7 @@
 
 /*2. Colors generators*/
 
-.u-bg{
-  @each $name, $value in $brand-colors{
-    &-#{$name}{
-      background: $value;
-    }
-  }
-}
-.u-color{
-  @each $name, $value in $brand-colors{
-    &-#{$name}{
-      color: $value;
-    }
-  }
-}
-.u-gradient{
-  @each $name, $value in $gradient-variations{
-    &-#{$name}{
-      color: $value;
-    }
-  }
-}
+
 
 
 /*3. Media Manipulation*/

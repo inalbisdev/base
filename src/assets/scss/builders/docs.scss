@@ -1,6 +1,9 @@
 /*********************************************************
 
-                  TABLE OF CONTENTS
+                  DOCS FOR WAY APP
+
+
+//Import Of Whole Proyect
 
 1. Vars and Mixins
 2. Global Reset
@@ -10,8 +13,10 @@
 6. Organisms
 7. Layouts
 8. Utils
+9. Custom Docs
 
 *********************************************************/
+
 
 /*1 Vars and Mixins*/
 @import "../vars/glob";
@@ -43,3 +48,6 @@
 
 /*8 Utils*/
 @import "../utils/glob";
+
+/*9. Custom Docs*/
+@import "../docs/glob";

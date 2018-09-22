@@ -7,14 +7,14 @@
           "elemclass": "m-card--inside",
           "title": [
             {
-              "class": "a-typo-curie u-color-white",
+              "class": "a-typo-curie a-color-white",
               "tag": "h3",
               "text":  "Fun & Snow & Andorra & Dabbing"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-kepler u-color-white",
+              "class": "a-typo-kepler a-color-white",
               "tag": "h6",
               "text":  "Lorem ispum dolor sit amet."
             }
@@ -71,14 +71,14 @@
           "elemclass": "m-card--inside",
           "title": [
             {
-              "class": "a-typo-curie u-color-white",
+              "class": "a-typo-curie a-color-white",
               "tag": "h3",
               "text":  "Fun & Snow & Andorra & Dabbing"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-kepler u-color-white",
+              "class": "a-typo-kepler a-color-white",
               "tag": "h6",
               "text":  "Lorem ispum dolor sit amet."
             }
@@ -137,7 +137,7 @@
           "id": "ab2k",
           "title": [
             {
-              "class": "a-typo-edison u-color-green",
+              "class": "a-typo-edison a-color-green",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
@@ -158,7 +158,7 @@
             {
               "tag": {
                 "text": "Caribe",
-                "class": "u-color-green"
+                "class": "a-color-green"
               }
             }
           ],
@@ -200,7 +200,7 @@
           "id": "a2ak",
           "title": [
             {
-              "class": "a-typo-edison u-color-mustard",
+              "class": "a-typo-edison a-color-mustard",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
@@ -221,7 +221,7 @@
             {
               "tag": {
                 "text": "Fun",
-                "class": "u-color-pink"
+                "class": "a-color-pink"
               }
             }
           ],
@@ -253,7 +253,7 @@
         {
           "title": [
             {
-              "class": "a-typo-edison u-color-mustard",
+              "class": "a-typo-edison a-color-mustard",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
@@ -274,7 +274,7 @@
             {
               "tag": {
                 "text": "Petardeo",
-                "class": "u-color-helio-trope"
+                "class": "a-color-helio-trope"
               }
             }
           ],
@@ -308,7 +308,7 @@
         {
           "title": [
             {
-              "class": "a-typo-edison u-color-mustard",
+              "class": "a-typo-edison a-color-mustard",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
@@ -329,7 +329,7 @@
             {
               "tag": {
                 "text": "Caribe",
-                "class": "u-color-black"
+                "class": "a-color-black"
               }
             }
           ],
@@ -361,7 +361,7 @@
         {
           "title": [
             {
-              "class": "a-typo-edison u-color-blue-electric",
+              "class": "a-typo-edison a-color-blue-electric",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
@@ -382,7 +382,7 @@
             {
               "tag": {
                 "text": "Playa",
-                "class": "u-color-orange"
+                "class": "a-color-orange"
               }
             }
           ],
@@ -414,7 +414,7 @@
         {
           "title": [
             {
-              "class": "a-typo-edison u-color-teal-light",
+              "class": "a-typo-edison a-color-teal-light",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
@@ -435,7 +435,7 @@
             {
               "tag": {
                 "text": "Fun",
-                "class": "u-color-teal"
+                "class": "a-color-teal"
               }
             }
           ],
@@ -471,7 +471,7 @@
           "title" : [
             {
               "text" : "#BFForever",
-              "class" : "u-color-orange",
+              "class" : "a-color-orange",
               "emoji" : [
                  "&#x1F346",
                  "&#x1F344"
@@ -496,7 +496,7 @@
           "text" : [
             {
               "text" : "@johndoe",
-              "class": "u-color-white"
+              "class": "a-color-white"
             }
           ],
           "media": [
@@ -529,7 +529,7 @@
           "text" : [
             {
               "text" : "@johndoe",
-              "class": "u-color-white"
+              "class": "a-color-white"
             }
           ],
           "media": [
@@ -562,7 +562,7 @@
           "text" : [
             {
               "text" : "@johndoe",
-              "class": "u-color-white"
+              "class": "a-color-white"
             }
           ],
           "media": [
@@ -595,7 +595,7 @@
           "text" : [
             {
               "text" : "@johndoe",
-              "class": "u-color-white"
+              "class": "a-color-white"
             }
           ],
           "media": [
@@ -628,7 +628,7 @@
           "text" : [
             {
               "text" : "@johndoe",
-              "class": "u-color-white"
+              "class": "a-color-white"
             }
           ],
           "media": [
@@ -661,7 +661,7 @@
           "text" : [
             {
               "text" : "@johndoe",
-              "class": "u-color-white"
+              "class": "a-color-white"
             }
           ],
           "media": [
@@ -696,7 +696,7 @@
           "title": [
             {
               "text" : "Experiencias",
-              "class" : "u-color-red"
+              "class" : "a-color-red"
             }
           ],
           "subtitle": [
@@ -716,14 +716,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-edison u-color-white",
+              "class": "a-typo-edison a-color-white",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "h6",
               "text":  "Mucho 'sun' y mucha 'beach'"
             }
@@ -766,14 +766,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-edison u-color-white",
+              "class": "a-typo-edison a-color-white",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "h6",
               "text":  "Mucho 'sun' y mucha 'beach'"
             }
@@ -816,14 +816,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-edison u-color-white",
+              "class": "a-typo-edison a-color-white",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "h6",
               "text":  "Mucho 'sun' y mucha 'beach'"
             }
@@ -866,14 +866,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-edison u-color-white",
+              "class": "a-typo-edison a-color-white",
               "tag": "h3",
               "text":  "Fun & Travel & Sailing"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "h6",
               "text":  "Mucho 'sun' y mucha 'beach'"
             }
@@ -919,7 +919,7 @@
           "title": [
             {
               "text" : "Qué es Wäy?",
-              "class" : "u-color-blue-light"
+              "class" : "a-color-blue-light"
             }
           ],
           "subtitle": [
@@ -939,14 +939,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-einstein u-color-white",
+              "class": "a-typo-einstein a-color-white",
               "tag": "h3",
               "text":  "Móntate tu viaje"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "h6",
               "text":  "Mata de envidia a instagram"
             }
@@ -991,14 +991,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-einstein u-color-white",
+              "class": "a-typo-einstein a-color-white",
               "tag": "h3",
               "text":  "Móntate tu viaje"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "h6",
               "text":  "Mata de envidia a instagram"
             }
@@ -1044,7 +1044,7 @@
           "title": [
             {
               "text" : "Eventos",
-              "class" : "u-color-red"
+              "class" : "a-color-red"
             }
           ],
           "subtitle": [
@@ -1064,14 +1064,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-edison u-color-white",
+              "class": "a-typo-edison a-color-white",
               "tag": "h3",
               "text":  "June"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "a",
               "text":  "Ver todos los eventos de junio"
             }
@@ -1105,14 +1105,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-edison u-color-white",
+              "class": "a-typo-edison a-color-white",
               "tag": "h3",
               "text":  "Los Castizos"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "a",
               "text":  "Ver todos los eventos de 2018"
             }
@@ -1146,14 +1146,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-edison u-color-white",
+              "class": "a-typo-edison a-color-white",
               "tag": "h3",
               "text":  "Steve Aoki at Stage"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "a",
               "text":  "Mucho 'sun' y mucha 'beach'"
             }
@@ -1196,14 +1196,14 @@
           "elemclass": "m-card--inside m-card--kojac",
           "title": [
             {
-              "class": "a-typo-edison u-color-white",
+              "class": "a-typo-edison a-color-white",
               "tag": "h3",
               "text":  "June"
             }
           ],
           "subtitle": [
             {
-              "class": "a-typo-mendel u-color-white",
+              "class": "a-typo-mendel a-color-white",
               "tag": "a",
               "text":  "Ver todos los eventos de junio"
             }

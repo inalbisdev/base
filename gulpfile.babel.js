@@ -61,7 +61,8 @@ gulp.task('webpack', function() {
     return gulp.src('./src/assets/javascript/app.js')
         .pipe(webpack({
             entry: {
-                bundle: "./src/assets/javascript/app.js"
+                bundle: "./src/assets/javascript/app.js",
+                docs: "./src/assets/javascript/docs.js"
             },
             output: {
                 filename: "[name].js"
@@ -82,7 +83,7 @@ gulp.task('webpack', function() {
                 }
             ],
             plugins:  new UglifyJsPlugin({
-                sourceMap: false
+                sourceMap: true
             })
 
         }))
@@ -198,7 +199,7 @@ function demo() {
 // Compile Sass into CSS
 // In production, the CSS is compressed
 function sassToCss() {
-    return gulp.src('src/assets/scss/builders/main.scss')
+    return gulp.src(['src/assets/scss/builders/main.scss', 'src/assets/scss/builders/docs.scss'])
         .pipe($.sourcemaps.init())
         .pipe($.sass({
             includePaths: PATHS.sass
@@ -233,10 +234,14 @@ function images() {
     .pipe(gulp.dest(PATHS.dist + '/assets/media'));
 }
 
-// Start a server with BrowserSync to preview the site in
 function server(done) {
     browser.init({
-        server: PATHS.dist, port: PORT
+        server: PATHS.dist,
+        port: PORT,
+        browser: "google chrome",
+        cors: true,
+        notify: false,
+        open: false
     });
     done();
 }

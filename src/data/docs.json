@@ -1,0 +1,487 @@
+{
+  "appComponents": [
+    {
+      "atoms": {
+        "a-typo-tesla": [
+          {
+            "name": "a-typo-tesla",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-tesla",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-typo-hawking": [
+          {
+            "name": "a-typo-hawking",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-hawking",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-typo-newton": [
+          {
+            "name": "a-typo-newton",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-newton",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-typo-edison": [
+          {
+            "name": "a-typo-edison",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-edison",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-typo-einstein": [
+          {
+            "name": "a-typo-einstein",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-einstein",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-typo-curie": [
+          {
+            "name": "a-typo-curie",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-curie",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-typo-kepler": [
+          {
+            "name": "a-typo-kepler",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-kepler",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-typo-mendel": [
+          {
+            "name": "a-typo-mendel",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-mendel",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-typo-pascal": [
+          {
+            "name": "a-typo-einstein",
+            "elem": "a-typo",
+            "conf": [
+              {
+                "class": "a-typo-pascal",
+                "tag": "h3",
+                "text":  "Fun & Travel & Sailing"
+              }
+            ]
+          }
+        ],
+        "a-color": [
+          {
+            "name": "a-color-primary"
+          }
+        ],
+        "a-bg": [
+          {
+            "name": "a-bg"
+          }
+        ],
+        "a-gradient": [
+          {
+            "name": "a-gradient"
+          }
+        ],
+        "a-avatar": [
+          {
+            "name": "a-avatar",
+            "elem": "a-avatar",
+            "description": "Avatar con hover"
+          }
+        ],
+        "a-ham": [
+          {
+            "name": "a-ham",
+            "elem": "a-ham",
+            "description": "Boton hamburguesa"
+          }
+        ],
+        "a-button": [
+          {
+            "name": "a-button",
+            "elem": "a-button",
+            "description": "Boton génerico: Naming basado en ciudades. Se pueden añadir atomos de colores para sobreescribir los valores por defecto",
+            "conf": [
+              {
+                "class": "",
+                "text": "Boton por defecto",
+                "url": "https://www.google.es",
+                "target": "_blank",
+                "external": true
+              }
+            ]
+          },
+          {
+            "name": "a-button--narrow",
+            "elem": "a-button",
+            "description": "Se puede añadir a cualquier tipo de boton",
+            "conf": [
+              {
+                "class": "a-button--narrow",
+                "text": "Boton por defecto más pequeño",
+                "url": "https://www.google.es",
+                "target": "_blank",
+                "external": true
+              }
+            ]
+          },
+          {
+            "name": "a-button--berlin",
+            "elem": "a-button",
+            "description": "",
+            "conf": [
+              {
+                "class": "a-button--berlin",
+                "text": "Boton berlin",
+                "url": "https://www.google.es",
+                "target": "_blank",
+                "external": true
+              }
+            ]
+          },
+          {
+            "name": "a-button--moskva",
+            "elem": "a-button",
+            "description": "",
+            "conf": [
+              {
+                "class": "a-button--moskva",
+                "text": "Boton moskva",
+                "url": "https://www.google.es",
+                "target": "_blank",
+                "external": true
+              }
+            ]
+          },
+          {
+            "name": "a-button--oslo",
+            "elem": "a-button",
+            "description": "",
+            "conf": [
+              {
+                "class": "a-button--oslo",
+                "text": "Boton oslo",
+                "url": "https://www.google.es",
+                "target": "_blank",
+                "external": true
+              }
+            ]
+          },
+          {
+            "name": "a-button--paris",
+            "elem": "a-button",
+            "description": "Boton Paris",
+            "conf": [
+              {
+                "class": "a-button--paris",
+                "text": "Boton paris",
+                "url": "https://www.google.es",
+                "target": "_blank",
+                "external": true
+              }
+            ]
+          },
+          {
+            "name": "a-button--dublin",
+            "elem": "a-button",
+            "description": "",
+            "conf": [
+              {
+                "class": "a-button--dublin",
+                "text": "Boton dublin",
+                "url": "https://www.google.es",
+                "target": "_blank",
+                "external": true
+              }
+            ]
+          },
+          {
+            "name": "a-button--roma",
+            "elem": "a-button",
+            "description": "",
+            "conf": [
+              {
+                "class": "a-button--roma",
+                "text": "Boton roma",
+                "url": "https://www.google.es",
+                "target": "_blank",
+                "external": true
+              }
+            ]
+          }
+        ]
+      },
+      "molecules": {
+        "m-card": [
+          {
+            "name": "m-card",
+            "elem": "m-card",
+            "attr": [
+              {
+                "id": "ab2k",
+                "title": [
+                  {
+                    "class": "a-typo-edison a-color-green",
+                    "tag": "h3",
+                    "text": "Fun & Travel & Sailing"
+                  }
+                ],
+                "subtitle": [
+                  {
+                    "class": "a-typo-mendel",
+                    "tag": "h6",
+                    "text": "Ibiza y Formentera"
+                  }
+                ],
+                "text": [
+                  {
+                    "text": "Mucho 'sol' y mucha 'beach', si no te gusta haber elegido Albacete"
+                  }
+                ],
+                "actions": [
+                  {
+                    "tag": {
+                      "text": "Caribe",
+                      "class": "a-color-green"
+                    }
+                  }
+                ],
+                "button": [
+                  {
+                    "class": "a-button--oslo a-button--narrow",
+                    "text": "desde 354,00 €",
+                    "url": "https://www.google.es",
+                    "target": "_blank",
+                    "external": true
+                  }
+                ],
+                "media": [
+                  {
+                    "class": "u-aspect u-aspect--3/4",
+                    "alt": "Alt",
+                    "title": "Title",
+                    "source": [
+                      {
+                        "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                        "url": "assets/media/images/explore/m-card-simple-explore-1.png",
+                        "media": "max-width: 768px"
+                      },
+                      {
+                        "filter": "/resize/350x450/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                        "url": "assets/media/images/explore/m-card-simple-explore-1.png",
+                        "media": "min-width: 769px"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "m-card--inside",
+            "elem": "m-card",
+            "description": "Card generico para montar la info, el ancho lo define un grid o un slider",
+            "attr": [
+              {
+                "elemclass": "m-card--inside",
+                "title": [
+                  {
+                    "class": "a-typo-curie a-color-white",
+                    "tag": "h3",
+                    "text": "Fun & Snow & Andorra & Dabbing"
+                  }
+                ],
+                "subtitle": [
+                  {
+                    "class": "a-typo-kepler a-color-white",
+                    "tag": "h6",
+                    "text": "Lorem ispum dolor sit amet."
+                  }
+                ],
+                "button": [
+                  {
+                    "class": "a-button--oslo a-button--narrow",
+                    "text": "desde 354,00€",
+                    "url": "https://www.google.es",
+                    "target": "_blank",
+                    "external": true
+                  },
+                  {
+                    "class": "a-button--berlin a-button--narrow u-uppercase",
+                    "text": "Más reservado",
+                    "url": "https://www.google.es",
+                    "target": "_blank",
+                    "external": true
+                  },
+                  {
+                    "class": "a-button--paris a-button--narrow u-uppercase",
+                    "text": "Solo estudiantes",
+                    "url": "https://www.google.es",
+                    "target": "_blank",
+                    "external": true
+                  }
+                ],
+                "media": [
+                  {
+                    "class": "u-aspect u-aspect--3/4",
+                    "alt": "Alt",
+                    "title": "Title",
+                    "source": [
+                      {
+                        "filter": "/resize/500x750/filters:quality(55):max_age(2604800):format(webp)/s3/",
+                        "url": "assets/media/images/explore/m-card-full-explore-1.jpg",
+                        "media": "max-width: 768px"
+                      },
+                      {
+                        "filter": "/resize/750x1000/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                        "url": "assets/media/images/explore/m-card-full-explore-1.jpg",
+                        "media": "min-width: 769px"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "m-card--kojac",
+            "description": "Variante del inside, añadiendo un modificador para la disposición del contenido",
+            "elem": "m-card",
+            "attr": [
+              {
+                "elemclass": "m-card--inside m-card--kojac",
+                "title": [
+                  {
+                    "class": "a-typo-edison a-color-white",
+                    "tag": "h3",
+                    "text": "Fun & Travel & Sailing"
+                  }
+                ],
+                "subtitle": [
+                  {
+                    "class": "a-typo-mendel a-color-white",
+                    "tag": "h6",
+                    "text": "Mucho 'sun' y mucha 'beach'"
+                  }
+                ],
+                "button": [
+                  {
+                    "class": "a-button--paris a-button--narrow",
+                    "text": "desde 354,00 €",
+                    "url": "https://www.google.es",
+                    "target": "_blank",
+                    "external": true
+                  }
+                ],
+                "media": [
+                  {
+                    "class": "u-aspect u-aspect--16/9",
+                    "alt": "Alt",
+                    "title": "Title",
+                    "source": [
+                      {
+                        "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                        "url": "assets/media/images/explore/experiences-slider-1.png",
+                        "media": "max-width: 768px"
+                      },
+                      {
+                        "filter": "/resize/485x275/filters:quality(85):max_age(2604800):format(webp)/s3/",
+                        "url": "assets/media/images/explore/forever-slider-1.jpg",
+                        "media": "min-width: 769px"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "m-heading": [
+          {
+            "name": "m-heading",
+            "description": "Modulo para encabezados de sección, admite emojis y los colores van por atomos",
+            "elem": "m-heading",
+            "attr": [
+              {
+                "title": [
+                  {
+                    "text": "Qué es Wäy?",
+                    "class": "a-color-blue-light",
+                    "emoji": [
+                      "&#x1F346",
+                      "&#x1F344"
+                    ]
+                  }
+                ],
+                "subtitle": [
+                  {
+                    "text": "En tres pasos y cuantas etiquetas"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "m-loading": [
+          {
+            "name": "m-loading",
+            "description": "Loading inicial para la carga de la página. Aparece solo una vez por sesión",
+            "elem": "m-loading"
+          }
+        ]
+      }
+    }
+  ]
+}
