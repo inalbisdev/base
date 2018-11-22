@@ -22,24 +22,7 @@
 @import "../base/reset";
 
 /*3 Vendors and themes*/
-@import "../../../../node_modules/gel-sass-tools/sass-tools";
-@import "../../../../node_modules/sass-mq/mq";
-@import "../../../../node_modules/gel-grid/grid";
 @import "../../../../node_modules/slick-carousel/slick/slick.scss";
 @import "../vendors/slick-custom-theme";
-@import "../vendors/juxtapose";
 
-/*4 Atoms*/
-@import "../atomic/atoms/glob";
-
-/*5 Molecules*/
-@import "../atomic/molecules/glob";
-
-/*6 Organisms*/
-@import "../atomic/organisms/glob";
-
-/*7 Layouts*/
-@import "../atomic/layouts/glob";
-
-/*8 Utils*/
-@import "../utils/glob";
+@import "../bf/glob";

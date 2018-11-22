@@ -1,10 +1,6 @@
 <div class="m-loading" id="m-loading">
     <div class="m-loading__logo">
         {{> a-logo}}
-        <div class="u-effect-ripple">
-            <div class="u-effect-ripple__bubble"></div>
-            <div class="u-effect-ripple__bubble"></div>
-        </div>
     </div>
 </div>
 
@@ -13,7 +9,7 @@
         if(sessionStorage.loading){
             var element = document.getElementById('m-loading');
             if (element) {
-                element.style.display = "none";
+                //element.style.display = "none";
             }
         }
     })();

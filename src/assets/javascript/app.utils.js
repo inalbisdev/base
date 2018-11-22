@@ -24,10 +24,6 @@ module.exports = {
             }, timing
         );
         return false;
-
-    },
-    checkDataFromObject: function (el, data) {
-        return !!$(el).data(data);
     },
     getOffsetTop: function (el) {
         return el.offset().top;
@@ -94,6 +90,10 @@ module.exports = {
         }
     },
 
+
+     makeTwoDigits : function (n) {
+        return (n < 10 ? "0" : "") + n;
+    },
 
     init: function () {
         this.checkIfIsDevice()

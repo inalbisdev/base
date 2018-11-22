@@ -22,6 +22,7 @@ module.exports = {
     resetToggle : function($el){
 
         let settings = this.getSettings($el);
+
         $el.toggleClass(this.locators.selfClass);
         $(settings.target).toggleClass(settings.classToChange);
         this.locators.activeToggle =  this.locators.activeToggle ? false : $el;

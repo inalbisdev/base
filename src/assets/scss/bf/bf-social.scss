@@ -1,0 +1,51 @@
+.bf-social{
+  display: flex;
+  &__icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+    margin-right: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(0);
+    will-change: transform;
+    transition: .3s transform;
+    &:hover{
+      transform: translateY(-5px);
+    }
+    &--twitter{
+      background: #0084b4;
+    }
+    &--facebook{
+      background: #3b5998;
+    }
+    &--linkedin{
+      background: #0077b5;
+    }
+    &--google{
+      background: #d34836;
+    }
+    &--whatsapp{
+      background: #25d366;
+      html:not(.is-device) &{
+        display: none;
+      }
+    }
+    svg{
+      width: 20px;
+      height: 20px;
+      polygon,
+      rect,
+      path{
+        fill: #fff;
+      }
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}

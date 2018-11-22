@@ -1,0 +1,44 @@
+.bf-loading{
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: .3s opacity .6s;
+  will-change: opacity;
+  pointer-events: none;
+  .bf-bullet{
+
+  }
+  &__text{
+    color: #fff;
+    font-size: 17px;
+    line-height: 20px;
+    padding-top: 16px;
+  }
+  &.is-hidden{
+    opacity: 0;
+
+  }
+}
+
+
+
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 10px #e5077e, 0 0 20px #e5077e, 0 0 30px #e5077e,
+    0 0 40px #e5077e, 0 0 70px #e5077e, 0 0 80px #e5077e, 0 0 100px
+    #e5077e, 0 0 150px #e5077e;
+  }
+  to {
+    text-shadow: 0 0 5px #e5077e, 0 0 10px #e5077e, 0 0 15px #e5077e,
+    0 0 20px #e5077e, 0 0 35px #e5077e, 0 0 40px #e5077e, 0 0 50px
+    #e5077e, 0 0 75px #e5077e;
+  }
+}
+

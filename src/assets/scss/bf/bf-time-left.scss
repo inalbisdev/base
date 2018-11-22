@@ -1,0 +1,104 @@
+.bf-time-left{
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  background: url(https://d1hkxmgwhmmdhs.cloudfront.net/dist/assets/img/iberojet/black-friday-2018/blackFridayLanding.png) center top/cover no-repeat;
+  height: 135px;
+  width: 100%;
+
+  transition: .3s transform .6s;
+  will-change: transform;
+  @media (min-width: 992px){
+    transform: translateY(100%);
+
+  }
+  @media (max-width: 991px){
+    height: auto;
+    bottom: auto;
+    top: 0;
+    background: #000;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  @media (max-width: 480px){
+    padding: 8px;
+    flex-wrap: wrap;
+  }
+  .is-loaded &{
+    @media (min-width: 992px){
+      transform: translateY(0);
+    }
+  }
+  &__inner{
+    display: flex;
+    align-items: center;
+    @media (min-width: 992px){
+      padding-top: 30px;
+      padding-left: 30vw;
+      height: 100%;
+    }
+    @media (max-width: 991px){
+      flex-wrap: wrap;
+      flex: 1;
+      justify-content: center;
+    }
+    @media (max-width: 480px){
+      width: 100%;
+      flex: auto;
+    }
+
+  }
+  &__title{
+    font-size: 25px;
+    line-height: 30px;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: -0.12px;
+
+    @media (min-width: 992px){
+      padding-right: 30px;
+    }
+    @media (max-width: 600px){
+      font-size: 12px;
+      line-height: 16px;
+      font-weight: 700;
+    }
+    @media (max-width: 480px){
+
+    }
+  }
+  .bf-count{}
+  &__logo{
+    @media (min-width: 992px){
+      display: none;
+    }
+    flex: 1;
+    display: flex;
+    align-items: center;
+    @media (max-width: 480px){
+      justify-content: space-between;
+      flex: auto;
+      width: 100%;
+    }
+    .bf-logo{
+      position: relative;
+      right: 0;
+      top: 0;
+      width: 140px;
+      @media (max-width: 360px){
+        width: 100px;
+      }
+    }
+    .bf-bullet{
+      width: 60px;
+      height: 60px;
+      margin-left: 16px;
+      &__text{
+        font-size: 14px;
+        line-height: 15px;
+      }
+    }
+  }
+}

@@ -35,15 +35,37 @@
 *********************************************************/
 
 /*1 Global Settings*/
+/* latin-ext */
 @font-face {
-  font-family: 'Source Sans Pro';
-  font-display: fallback;
-  src: local('Source Sans Pro'),
-  url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+  font-family: 'Lato';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Potra";
+  font-display: swap;
+  src: local("Potra"),
+  url(https://d1hkxmgwhmmdhs.cloudfront.net/dist/assets/img/iberojet/black-friday-2018/Potra.woff2) format("woff2"),
+  url(https://d1hkxmgwhmmdhs.cloudfront.net/dist/assets/img/iberojet/black-friday-2018/Potra.ttf) format("truetype");
+  font-weight: 400
+}
+
+
 /*1.1 Base Font Configuration*/
 $base-font-fallback: Sans-serif, Helvetica, sans-serif !default;
-$base-font-custom : "Source Sans Pro" !default;
+$base-font-custom : "Lato" !default;
 $base-font-family: $base-font-custom,$base-font-fallback;
 $base-font-size: 16px !default;
 $base-line-height: 24px !default;

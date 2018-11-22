@@ -61,10 +61,10 @@ gulp.task('webpack', function() {
     return gulp.src('./src/assets/javascript/app.js')
         .pipe(webpack({
             entry: {
-                bundle: "./src/assets/javascript/app.js",
-                docs: "./src/assets/javascript/docs.js"
+                bundle: "./src/assets/javascript/app.js"
             },
             output: {
+
                 filename: "[name].js"
             },
             mode: 'production',
@@ -82,9 +82,15 @@ gulp.task('webpack', function() {
                     ]
                 }
             ],
-            plugins:  new UglifyJsPlugin({
-                sourceMap: true
-            })
+
+            plugins: [new UglifyJsPlugin({
+                uglifyOptions: {
+                    output: {
+                        comments: false,
+                        beautify: false,
+                    }
+                }
+            })]
 
         }))
         .pipe(gulp.dest('dist/assets/javascript/'));
