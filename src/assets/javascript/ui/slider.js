@@ -21,7 +21,7 @@ module.exports = {
             touchMove: false,
             swipe: false
         });
-        $(this.locators.$stepLink)[0].click();
+
     },
 
 

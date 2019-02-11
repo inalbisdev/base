@@ -1,5 +1,10 @@
 .bf-social{
   display: flex;
+  &__open{
+    @media (min-width: 992px){
+      display: none;
+    }
+  }
   &__icon{
     width: 32px;
     height: 32px;

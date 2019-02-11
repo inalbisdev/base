@@ -1,27 +1,21 @@
 .bf-bullet{
-  width: 320px;
-  height: 320px;
   border-radius: 50%;
-  background: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family: "Potra",sans-serif;
+  font-family: "Wall Poet",sans-serif;
   text-align: center;
   color: #fff;
   line-height: 15px;
   font-size: 14px;
   cursor: pointer;
-  box-shadow: 0 2px 18px 0 rgba(220, 0, 123, .75);
   @media (max-width: 400px){
-    width: 300px;
-    height: 300px;
+
   }
 
   &__text{
-    text-shadow: 0 0 10px #e5077e, 0 0 20px #e5077e, 0 0 30px #e5077e,
-    0 0 40px #e5077e, 0 0 70px #e5077e, 0 0 80px #e5077e, 0 0 100px
-    #e5077e, 0 0 150px #e5077e;
+    color: #00f8fc;
+    text-transform: uppercase;
     font-size: 60px;
     text-align: center;
     line-height: 65px;

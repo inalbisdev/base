@@ -2,7 +2,8 @@
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background-color: #000;
+  background: #02184b;
+  pointer-events: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,8 +11,21 @@
   z-index: 1000;
   transition: .3s opacity .6s;
   will-change: opacity;
-  pointer-events: none;
+  &::before{
+    background: url(https://d1hkxmgwhmmdhs.cloudfront.net/dist/assets/img/iberojet/cyber-monday-2018/testCyberMonday-min.png) no-repeat bottom center;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: .3;
+  }
   .bf-bullet{
+
+  }
+  &__inner{
+
 
   }
   &__text{
@@ -27,18 +41,4 @@
 }
 
 
-
-
-@keyframes neon {
-  from {
-    text-shadow: 0 0 10px #e5077e, 0 0 20px #e5077e, 0 0 30px #e5077e,
-    0 0 40px #e5077e, 0 0 70px #e5077e, 0 0 80px #e5077e, 0 0 100px
-    #e5077e, 0 0 150px #e5077e;
-  }
-  to {
-    text-shadow: 0 0 5px #e5077e, 0 0 10px #e5077e, 0 0 15px #e5077e,
-    0 0 20px #e5077e, 0 0 35px #e5077e, 0 0 40px #e5077e, 0 0 50px
-    #e5077e, 0 0 75px #e5077e;
-  }
-}
 

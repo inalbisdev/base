@@ -145,6 +145,10 @@ module.exports = (function () {
             var x = setInterval(function () {
                 if (getTheDifferenceBetweenDates() <= 0) {
                     clearInterval(x);
+                    locators.$days.html("00");
+                    locators.$hours.html("00");
+                    locators.$minutes.html("00");
+                    locators.$seconds.html("00");
                 } else {
                     updateCountDown();
                 }

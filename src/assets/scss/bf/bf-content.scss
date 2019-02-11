@@ -12,13 +12,28 @@
     top: 0;
     left: 0;
     height: 100%;
-    background: #000;
     z-index: 2;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     padding: 35px;
-    box-shadow: 0 2px 18px 0 rgba(220,0,123,0.33);
+    background-image: linear-gradient(-180deg, rgba(0,104,221,0.00) 0%, rgba(3,60,131,0.88) 0%, #02184B 43%);
+    box-shadow: 0 2px 11px 0 rgba(0,0,0,0.73);
+    &::before{
+      background: url(https://d1hkxmgwhmmdhs.cloudfront.net/dist/assets/img/iberojet/cyber-monday-2018/bgVerticalCyberMonday-min.png) no-repeat center center/cover;
+      display: block;
+      height: 100%;
+      width: 100%;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: .2;
+      @media (max-width: 991px){
+        background-size: auto;
+      }
+    }
+
     @media (max-width: 991px){
       position: fixed;
       bottom: 0;
@@ -116,13 +131,18 @@
   }
 }
 
+
 .bf-title{
-  font-family: "Potra", sans-serif;
-  font-size: 50px;
-  line-height: 46px;
+  font-family: "Wall Poet", sans-serif;
+  text-transform: uppercase;
+  border: 0 solid #7DA0BA;
+  font-size: 40px;
+  color: #00F8FC;
+  letter-spacing: -1.66px;
   text-align: center;
-  color: #F4B6D1;
-  animation: neon 1.5s ease-in-out infinite alternate;
+  line-height: 40px;
+  text-shadow: 5px 4px 3px #00040A;
+
   @media (max-width: 991px){
     display: none;
     animation-play-state: paused;
@@ -172,7 +192,7 @@
     }
     &::before{
       height: 2px;
-      background: #ef426f;
+      background: #00F8FC;
       content: "";
       position: absolute;
       width: 0;
@@ -190,9 +210,6 @@
     }
     &.is-active{
       opacity: 1;
-      @media (max-width: 991px){
-        color: #ef426f;
-      }
       &::before{
         width: 20px;
         @media (max-width: 991px){
@@ -204,7 +221,7 @@
     &--highlight{
       &::after{
         content: "2019";
-        color: #ef426f;
+        color: #00F8FC;
         display: block;
         position: absolute;
         top: 10%;
